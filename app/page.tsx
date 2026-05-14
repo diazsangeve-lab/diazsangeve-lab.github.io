@@ -127,7 +127,7 @@ export default function Home() {
           </div>
           <div className="md:col-span-8 space-y-8 text-cyan-100/80 leading-relaxed font-light">
             <p>
-              Every developer has a unique journey. Share yours here—whether you&apos;re self-taught, a bootcamp grad, or transitioning careers. <strong className="text-fuchsia-400 font-bold">Your story matters.</strong> Talk about what drives you to code and the impact you want to make.
+              I&apos;m an economics graduate student at Stellenbosch University, working at the intersection of macroeconomic policy, emerging markets, and quantitative research. My Honours thesis examined the short- and medium-term effects of austerity in emerging economies — work that earned a distinction and crystallised my interest in fiscal dynamics in developing contexts. <strong className="text-fuchsia-400 font-bold">Research that informs policy is what drives me.</strong> Before returning for my Master&apos;s, I spent five months as an Economic Research Intern at Cirrus Capital in Windhoek, covering sovereign bonds, fiscal policy, and macroeconomic commentary.
             </p>
             <div className="p-6 bg-cyan-950/20 border border-cyan-500/20 rounded-sm relative overflow-hidden">
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 via-fuchsia-500 to-cyan-500" />
@@ -135,17 +135,17 @@ export default function Home() {
                 <div>
                   <h3 className="text-cyan-400 mb-4 tracking-widest uppercase text-xs border-b border-cyan-800 pb-2">STACK_TRACE</h3>
                   <ul className="space-y-2 text-cyan-200/70">
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> JavaScript / Python / TypeScript</li>
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> React / Next.js / Node.js</li>
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Git / GitHub / VS Code</li>
+                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> R / Stata / MATLAB</li>
+                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Python / SQL / LaTeX</li>
+                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Bloomberg Terminal / Git / Excel</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-cyan-400 mb-4 tracking-widest uppercase text-xs border-b border-cyan-800 pb-2">PROTOCOLS</h3>
                   <ul className="space-y-2 text-cyan-200/70">
+                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Rigour over speed</li>
+                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Empirics over intuition</li>
                     <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Always learning</li>
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Ship &gt; Perfect</li>
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Open source contributor</li>
                   </ul>
                 </div>
               </div>
