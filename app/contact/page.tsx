@@ -25,9 +25,9 @@ export default function Contact() {
           <p className="text-lg text-white font-light">diazsangeve-lab</p>
         </a>
 
-        <a href="#" className="group block p-6 bg-[#0a0a1a] border border-cyan-900/30 hover:border-purple-500/50 hover:shadow-[0_0_20px_rgba(168,85,247,0.2)] transition-all duration-300">
+        <a href="www.linkedin.com/in/diazsangeve" className="group block p-6 bg-[#0a0a1a] border border-cyan-900/30 hover:border-purple-500/50 hover:shadow-[0_0_20px_rgba(168,85,247,0.2)] transition-all duration-300">
           <p className="text-xs font-bold tracking-widest uppercase mb-2 text-purple-400">LINKEDIN</p>
-          <p className="text-lg text-white font-light">www.linkedin.com/in/diazsangeve</p>
+          <p className="text-lg text-white font-light">diazsangeve</p>
         </a>
 
         <div className="block p-6 bg-[#0a0a1a] border border-cyan-900/30">
