@@ -27,7 +27,7 @@ export default function Contact() {
 
         <a href="#" className="group block p-6 bg-[#0a0a1a] border border-cyan-900/30 hover:border-purple-500/50 hover:shadow-[0_0_20px_rgba(168,85,247,0.2)] transition-all duration-300">
           <p className="text-xs font-bold tracking-widest uppercase mb-2 text-purple-400">LINKEDIN</p>
-          <p className="text-lg text-white font-light">Update with your URL</p>
+          <p className="text-lg text-white font-light">www.linkedin.com/in/diazsangeve</p>
         </a>
 
         <div className="block p-6 bg-[#0a0a1a] border border-cyan-900/30">
