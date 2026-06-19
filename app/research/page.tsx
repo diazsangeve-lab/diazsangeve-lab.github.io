@@ -23,13 +23,22 @@ export default function Research() {
           tags={["R", "PANEL DATA", "FISCAL POLICY"]}
           color="cyan"
           href="/research/austerity-thesis"
+          footer={null}
+        />
+        <ResearchCard 
+          title="MONETARY–FISCAL POLICY MIX (DSGE)"
+          description="Group coursework project (MComm Macroeconomics, 2026) building and calibrating a New Keynesian DSGE model with partially unbacked public debt to compare monetary dominance, fiscal dominance, and coexistence regimes."
+          tags={["DSGE", "NEW KEYNESIAN", "WELFARE ANALYSIS"]}
+          color="fuchsia"
+          href="/research/dsge-policy-mix"
+          footer="In collaboration with S. L. Nzima and T. H. Khosa"
         />
       </div>
     </section>
   );
 }
 
-function ResearchCard({ title, description, tags, color, href }: { title: string, description: string, tags: string[], color: "cyan" | "fuchsia" | "purple" | "yellow", href: string }) {
+function ResearchCard({ title, description, tags, color, href, footer }: { title: string, description: string, tags: string[], color: "cyan" | "fuchsia" | "purple" | "yellow", href: string, footer: string | null }) {
   const colorClasses = {
     cyan: "group-hover:border-cyan-500/50 group-hover:shadow-[0_0_20px_rgba(34,211,238,0.2)]",
     fuchsia: "group-hover:border-fuchsia-500/50 group-hover:shadow-[0_0_20px_rgba(232,121,249,0.2)]",
@@ -62,6 +71,11 @@ function ResearchCard({ title, description, tags, color, href }: { title: string
           </span>
         ))}
       </div>
+      {footer && (
+        <p className="text-[10px] uppercase tracking-widest font-mono text-cyan-900 pt-2 border-t border-cyan-900/30">
+          {footer}
+        </p>
+      )}
     </Link>
   );
 }
