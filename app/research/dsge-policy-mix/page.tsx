@@ -86,12 +86,21 @@ export default function DsgePolicyMix() {
       </div>
 
       {/* Footer */}
-      <div className="space-y-4 border-t border-cyan-900/30 pt-8">
+      <div className="space-y-6 border-t border-cyan-900/30 pt-8">
+        <a 
+          href="/dsge-policy-mix.pdf" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group relative inline-flex items-center gap-2 px-8 py-3 bg-fuchsia-950/30 border border-fuchsia-500/50 text-fuchsia-300 font-bold tracking-widest uppercase text-sm overflow-hidden hover:bg-fuchsia-900/50 transition-all hover:shadow-[0_0_20px_rgba(232,121,249,0.4)]"
+        >
+          <span className="relative z-10 flex items-center gap-2">
+            <DownloadIcon className="w-4 h-4" />
+            DOWNLOAD REPORT
+          </span>
+          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-fuchsia-400/10 to-transparent -translate-x-full group-hover:animate-shimmer" />
+        </a>
         <p className="text-xs font-mono text-cyan-700">
           Group project for MComm Macroeconomics, Stellenbosch University. May 2026.
-        </p>
-        <p className="text-sm text-cyan-100/70 font-light">
-          Full report and code available on request — please <Link href="/contact" className="text-fuchsia-400 hover:text-fuchsia-300 underline underline-offset-4 transition-colors">get in touch</Link>.
         </p>
       </div>
     </section>
