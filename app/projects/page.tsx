@@ -33,6 +33,14 @@ export default function Projects() {
           href="https://github.com/diazsangeve-lab/API_Exercise"
           footer="In collaboration with K. Nkosi"
         />
+        <ProjectCard
+          title="ROLLING BETA — SA FUND MANAGERS"
+          description="Functional R analysis computing 36-month rolling betas for South African active fund managers against the J433 local benchmark. Implements custom rolling-regression and visualisation functions using map/walk over lists of manager returns."
+          tags={["R", "ROLLING REGRESSION", "FUND PERFORMANCE"]}
+          color="purple"
+          href="https://github.com/diazsangeve-lab/Maps"
+          footer={null}
+        />
       </div>
     </section>
   );
